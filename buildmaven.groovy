@@ -1,4 +1,4 @@
-def buildmaven {
+def buildmaven() {
        
        sh "mvn compile"
 }
