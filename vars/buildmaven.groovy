@@ -1,5 +1,4 @@
-def call(Map config) {
-       
+def buildmaven() {
        sh "mvn compile"
-       
 }
+return this
