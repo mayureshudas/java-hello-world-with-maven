@@ -1,5 +1,5 @@
 def build() {
-       
-       sh "mvn compile"
+   sh "mvn compile"
 }
+
 return this
